@@ -1,13 +1,20 @@
 @import url('./reset.css');
+@import url('./container.css');
 @import url('./header.css');
+@import url('hero.css');
+@import url('about-us.css');
+@import url('collection.css');
+@import url('order-form.css');
+@import url('testimonials.css');
+@import url('footer.css');
 
 :root {
-  --main-bg-color: #1c2225;
-  --main-text-color: #fcf9f9;
+  --primary-color: rgba(252, 249, 249, 0.4);
+  --secondary-color: #fcf9f9;
   --accent-color: #ecd979;
-
+  --input-color: rgba(252, 249, 249, 0.5);
+  --border-color: rgba(252, 249, 249, 0.1);
+  --background-color: #1c2225;
   font-family: 'Manrope', sans-serif;
-
-  color: FCF9F9;
-  background-color: var(--main-bg-color);
+  background-color: var(--background-color);
 }

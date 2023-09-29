@@ -9,7 +9,8 @@ p {
   margin: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -28,4 +29,38 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input {
+  outline: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+body {
+  color: var(--primary-color);
+  background-color: var(--background-color);
+}
+address {
+  font-style: normal;
 }
