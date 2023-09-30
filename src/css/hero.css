@@ -135,13 +135,14 @@
     column-gap: 40px;
     row-gap: 0;
   }
-
+  .hero-title-container {
+    padding-top: 94px;
+  }
   .hero-title {
     width: 518px;
-    margin-top: 94px;
   }
   .hero-star-embr {
-    margin-top: 14px;
+    padding-top: 14px;
   }
   .hero-star {
     animation: 10s ease-in-out 1s infinite alternate rotate;
