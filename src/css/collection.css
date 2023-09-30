@@ -1,0 +1,66 @@
+@media screen and (max-width: 767px) {
+  .wrapper {
+    display: none;
+  }
+
+  .our-collection-container {
+    background: #fff;
+    padding: 18px 20px;
+  }
+
+  .our-collection-title {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03;
+
+    align-self: stretch;
+    text-align: center;
+    /* text-transform: capitalize; */
+    margin-bottom: 18px;
+  }
+
+  .our-collection-list {
+    display: block;
+    max-width: 335px;
+    max-height: 3062px;
+  }
+
+  .our-collection-li {
+    margin-bottom: 20px;
+  }
+
+  .our-collection-li:last-child {
+    margin-bottom: 0;
+  }
+
+  /* our-collection-img-box
+  our-collection-describtion */
+
+  .our-collection-describtion-title {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; /* 100% */
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+  }
+
+  .our-collection-describtion-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
