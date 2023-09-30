@@ -141,7 +141,7 @@
     margin-top: 94px;
   }
   .hero-star-embr {
-    margin-top: 66px;
+    margin-top: 14px;
   }
   .hero-star {
     animation: 10s ease-in-out 1s infinite alternate rotate;
@@ -171,7 +171,7 @@
     transform: scale(1);
   }
 }
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .hero-section-container {
     padding-top: 100px;
     padding-bottom: 150px;
@@ -190,4 +190,4 @@
   .hero-embr {
     height: 98px;
   }
-}
+} */
