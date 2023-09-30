@@ -43,7 +43,6 @@
   width: fit-content;
   padding: 14px 36px;
   margin-left: 70px;
-  color: inherit;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -142,6 +141,7 @@
   .hero-title {
     width: 518px;
   }
+
   .hero-star-embr {
     padding-top: 14px;
   }
