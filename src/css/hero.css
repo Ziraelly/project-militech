@@ -175,14 +175,18 @@
 }
 /* ======================== Desktop 1440 ========================  */
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+
   .hero-section-container {
     padding-bottom: 150px;
   }
 
-   .hero-title-container {
+  .hero-title-container {
     padding-top: 66px;
-  } 
+  }
 
   .hero-title {
     width: 632px;
@@ -192,10 +196,10 @@
   }
 
   .hero-star-embr {
-    margin-top: 66px;
+    padding-top: 66px;
   }
 
   .hero-embr {
     height: 98px;
   }
-} */
+}
