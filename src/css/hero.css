@@ -75,10 +75,14 @@
 
   .hero-title-container {
     row-gap: 40px;
+    padding-top: 26px;
+  }
+
+  .hero-model-img {
+    width: 413px;
   }
 
   .hero-title {
-    margin-top: 26px;
     font-size: 54px;
     font-weight: 400;
     line-height: 1.19;
