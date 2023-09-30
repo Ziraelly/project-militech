@@ -177,7 +177,6 @@
 
 /* @media screen and (min-width: 1440px) {
   .hero-section-container {
-    padding-top: 100px;
     padding-bottom: 150px;
   }
 
@@ -187,6 +186,7 @@
 
   .hero-title {
     width: 632px;
+    padding-right: 20px;
     font-size: 64px;
     line-height: 1.15;
   }
