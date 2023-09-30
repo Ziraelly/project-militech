@@ -172,14 +172,20 @@
     transform: scale(1);
   }
 }
+/* ======================== Desktop 1440 ========================  */
+
 /* @media screen and (min-width: 1440px) {
   .hero-section-container {
     padding-top: 100px;
     padding-bottom: 150px;
   }
+
+   .hero-title-container {
+    padding-top: 66px;
+  } 
+
   .hero-title {
     width: 632px;
-    margin-top: 66px;
     font-size: 64px;
     line-height: 1.15;
   }
