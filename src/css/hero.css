@@ -173,6 +173,7 @@
     transform: scale(1);
   }
 }
+
 /* ======================== Desktop 1440 ========================  */
 
 @media screen and (min-width: 1440px) {
