@@ -179,6 +179,12 @@
   .hero-title {
     width: 632px;
     margin-top: 66px;
+    font-size: 64px;
+    line-height: 1.15;
+  }
+
+  .hero-star-embr {
+    margin-top: 66px;
   }
 
   .hero-embr {
