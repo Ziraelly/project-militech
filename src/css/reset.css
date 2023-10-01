@@ -60,6 +60,7 @@ button {
 body {
   color: var(--primary-color);
   background-color: var(--background-color);
+  margin: 0;
 }
 address {
   font-style: normal;
