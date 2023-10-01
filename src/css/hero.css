@@ -8,6 +8,7 @@
   padding-top: 60px;
   padding-bottom: 80px;
 }
+
 .hero-align-container {
   display: flex;
   flex-direction: column-reverse;
@@ -19,6 +20,7 @@
   flex-direction: column;
   row-gap: 20px;
 }
+
 .hero-title {
   font-size: 44px;
   font-weight: 400;
@@ -107,22 +109,25 @@
     align-items: center;
     text-align: center;
   }
+
   .hero-hand-made-text {
     letter-spacing: -0.04em;
     color: var(--primary-color);
   }
+
   .hero-embr {
     width: 139px;
     height: 97px;
     border-radius: 50% 50% 100% 0% / 100% 100% 0% 0%;
     overflow: hidden;
   }
+
   .hero-ua-img {
     transform: scale(1.1);
   }
 }
 
-/* ======================== Desktop ========================  */
+/* ======================== Desktop 1280 ========================  */
 
 @media screen and (min-width: 1280px) {
   .hero-section-container {
@@ -135,9 +140,11 @@
     column-gap: 40px;
     row-gap: 0;
   }
+
   .hero-title-container {
     padding-top: 94px;
   }
+
   .hero-title {
     width: 518px;
   }
@@ -145,6 +152,7 @@
   .hero-star-embr {
     padding-top: 14px;
   }
+
   .hero-star {
     animation: 10s ease-in-out 1s infinite alternate rotate;
     animation-play-state: paused;
@@ -169,6 +177,7 @@
     border-radius: 50% 50% 100% 0% / 100% 100% 0% 0%;
     overflow: hidden;
   }
+
   .hero-ua-img {
     transform: scale(1);
   }
