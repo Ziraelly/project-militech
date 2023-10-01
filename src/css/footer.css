@@ -8,10 +8,10 @@
   background-size: auto 212px;
   min-width: 320px;
   margin: 0;
+  padding-top: 40px;
 }
 
 .footer-menu {
-  margin-top: 40px;
   width: 280px;
   height: 61px;
 }
@@ -49,7 +49,7 @@
 
 .footer-text {
   margin-top: 40px;
-  margin-bottom: 292px;
+  /* margin-bottom: 292px; */
   width: 335px;
   height: 216px;
   color: var(--secondary-color);
@@ -97,12 +97,11 @@
 
   .footer-text {
     margin-top: 80px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     width: 521px;
     height: 192px;
     font-size: 54px;
     line-height: 1.19;
-    letter-spacing: -0.02em;
   }
 }
 
@@ -129,7 +128,6 @@
     height: 148px;
     font-size: 64px;
     line-height: 1.16;
-    letter-spacing: -0.03em;
   }
 }
 
