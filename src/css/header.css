@@ -1,18 +1,19 @@
 /* 
 npm run dev
  */
-
+header {
+  padding-top: 20px;
+}
 .header-container {
-  margin: 20px auto 0 auto;
+  margin: 0 auto 0 auto;
   min-height: 52px;
   display: flex;
   align-items: center;
 }
 
-.header-logo:focus {
-  outline: none;
-  box-shadow: 0 0 0 1px var(--accent-color);
-  border-radius: 5px;
+.header-logo img {
+  width: 44px;
+  height: 39px;
 }
 
 .header-menu {
@@ -20,13 +21,6 @@ npm run dev
 }
 .header-menu-item {
   background-color: var(--background-color);
-}
-
-.header-menu-link:focus {
-  padding: 14px;
-  outline: none;
-  box-shadow: 0 0 0 1px var(--accent-color);
-  border-radius: 15px;
 }
 
 .header-tel {
@@ -39,12 +33,19 @@ npm run dev
 }
 
 .header-social-item {
-  padding: 8px;
   width: 44px;
   height: 44px;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background: rgba(252, 249, 249, 0.1);
+}
+
+.header-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -54,21 +55,12 @@ npm run dev
 .header-social-item:focus-within {
   border: 1px solid var(--accent-color);
 }
-.header-social-link:focus {
-  outline: none;
-}
 
 .header-icon {
   fill: #fcf9f9;
 }
 .header-menu-close-icon {
   stroke: #1c2225;
-}
-
-.header-menu-burger:focus {
-  outline: none;
-  box-shadow: 0 0 0 1px var(--accent-color);
-  border-radius: 5px;
 }
 
 .header-burger-icon {
@@ -106,7 +98,7 @@ npm run dev
     display: flex;
     align-items: center;
     flex-direction: row;
-    column-gap: 40px;
+    justify-content: space-between;
     margin: 20px 20px 0 20px;
   }
 
@@ -119,16 +111,6 @@ npm run dev
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .header-mobile-tel:hover {
-    border: 1px solid var(--accent-color);
-  }
-
-  .header-mobile-tel:focus-within {
-    border: 1px solid #1c2225;
-  }
-  .header-mobile-tel-link:focus {
-    outline: none;
-  }
   .header-mobile-tel-link {
     color: #1c2225;
     font-size: 12px;
@@ -151,18 +133,6 @@ npm run dev
     stroke: #1c2225;
   }
 
-  .header-mobile-close-btn:hover {
-    background-color: #404bbf;
-    fill: white;
-  }
-  .header-mobile-close-btn:focus {
-    background-color: #404bbf;
-    fill: white;
-    outline: none;
-    border-radius: 5px;
-    box-shadow: 0 0 0 1px #1c2225;
-  }
-
   .header-mobile-menu {
     display: flex;
     flex-direction: column;
@@ -173,7 +143,7 @@ npm run dev
     color: #1c2225;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.28;
+    line-height: 1.29;
     text-transform: uppercase;
   }
 
@@ -181,16 +151,7 @@ npm run dev
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-  }
-
-  /* .header-mobile-link:hover {
-    color: var(--accent-color);
-  } */
-  .header-mobile-link:focus {
-    outline: none;
-    padding: 5px 0;
-    border-radius: 8px;
-    box-shadow: 0 0 0 1px #1c2225;
+    align-items: flex-end;
   }
 
   .header-mobile-background {
@@ -236,7 +197,12 @@ npm run dev
     background-color: transparent;
     margin-left: 12px;
   }
+  .header-burger-icon {
+    width: 36px;
+    height: 24px;
+  }
 }
+
 /*============================max-width: 320px END============================*/
 
 /*==============================min-width: 375px==============================*/
@@ -246,7 +212,10 @@ npm run dev
     padding-left: 20px;
     padding-right: 20px;
   }
-
+  .header-burger-icon {
+    width: 36px;
+    height: 24px;
+  }
   .header-menu-burger {
     display: flex;
     align-items: center;
@@ -272,7 +241,14 @@ npm run dev
     padding-left: 32px;
     padding-right: 32px;
   }
+  .header-burger-icon {
+    width: 44px;
+    height: 30px;
+  }
 
+  .header-menu-burger {
+    margin-left: 20px;
+  }
   .header-mobile-slider {
     width: 380px;
   }
@@ -345,11 +321,13 @@ npm run dev
     color: #fcf9f9;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.3;
+    line-height: 1.29;
     text-transform: uppercase;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .header-menu-link:hover {
+
+  .header-menu-link:hover,
+  .header-menu-link:focus {
     color: var(--accent-color);
   }
 
@@ -378,7 +356,7 @@ npm run dev
     color: #fcf9f9;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.4;
+    line-height: 1.43;
   }
   .header-social-list {
     margin-left: 0;
