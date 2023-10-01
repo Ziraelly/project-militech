@@ -5,7 +5,7 @@
   background-image: url(/img/footer/m-ornament-f.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: auto;
+  background-size: auto 212px;
   min-width: 320px;
   margin: 0;
 }
@@ -76,7 +76,8 @@
   .footer {
     height: 370px;
     background-image: url(../img/footer/t-ornament-f.png);
-    background-position: right bottom;
+    background-position: right;
+    background-size: auto 370px;
   }
 
   .footer-menu {
@@ -119,6 +120,7 @@
   .footer {
     height: 363px;
     background-image: url(../img/footer/ornament-f.png);
+    background-size: auto 363px;
   }
 
   .footer-text {
@@ -148,6 +150,7 @@
 
   .footer {
     background-image: url(../img/footer/b-ornament-f.png);
+    background-size: auto 363px;
   }
 }
 
