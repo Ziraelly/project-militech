@@ -7,12 +7,27 @@
   display: flex;
   align-items: center;
 }
+
+.header-logo:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #ecd979;
+  border-radius: 5px;
+}
+
 .header-menu {
   display: none;
 }
+
+.header-menu-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #ecd979;
+  border-radius: 5px;
+}
+
 .header-tel {
   display: none;
 }
+
 .header-social-list {
   display: flex;
   column-gap: 12px;
