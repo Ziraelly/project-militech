@@ -254,7 +254,7 @@ header {
   }
 
   .header-mobile-content {
-    column-gap: 79px;
+    /* column-gap: 79px; */
     margin: 20px 32px 0 32px;
   }
 
