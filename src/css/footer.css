@@ -140,9 +140,9 @@
 }
 
 /*------------ desktop 14400 ------------*/
-@media screen and (min-width: 1440px) {
-  /*------!!!------ container 14400 ------!!!------*/
-  .container {
+/* @media screen and (min-width: 1440px) { */
+/*------!!!------ container 14400 ------!!!------*/
+/* .container {
     width: 1440px;
   }
 
@@ -158,4 +158,4 @@
   .footer {
     background-image: url(../img/footer/b-ornament-f@2x.png);
   }
-}
+} */
