@@ -1,8 +1,14 @@
 /* FOR MOBILE */
 
 @media screen and (max-width: 767px) {
+  .section-our-collection {
+    background-image: url(../img/collection/ornament-col.png);
+    background-position: -50px 285px;
+    background-size: 177px 199px;
+    background-repeat: no-repeat;
+  }
+
   .our-collection-container {
-    background: #1c2225;
     padding: 18px 20px;
   }
 
@@ -93,6 +99,17 @@
 /* FOR TABLET */
 
 @media screen and (min-width: 768px) {
+  .section-our-collection {
+    background-image: url(../img/collection/ornament-col@2x.png);
+    background-position: -60px 205px;
+    background-size: 180px 338px;
+    background-repeat: no-repeat;
+  }
+
+  .our-collection-container {
+    padding: 50px 32px;
+  }
+
   .our-collection-title {
     display: flex;
     justify-content: center;
@@ -122,11 +139,12 @@
   }
 
   .our-collection-li {
+    width: 342px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
-    width: calc((100% - 24px) / 2);
+    /* gap: 8px; */
+    width: calc((100% - 20px) / 2);
   }
 
   .our-collection-li:last-child {
@@ -189,6 +207,17 @@
 /* FOR DESKTOP */
 
 @media screen and (min-width: 1280px) {
+  .section-our-collection {
+    background-image: url(../img/collection/ornament-col@2x.png);
+    background-position: 0 220px;
+    background-size: 180px 338px;
+    background-repeat: no-repeat;
+  }
+
+  .our-collection-container {
+    padding: 70px 100px 150px 100px;
+  }
+
   .our-collection-title {
     display: flex;
     justify-content: center;
