@@ -9,26 +9,35 @@
                 and quality of service</h2>
 
             <div class="form-wrapper">
+                <div class="form-input-box">
+                    <input class="form-input" name="user-name" type="text" id="user-name"
+                        pattern="[a-zA-Zа-яА-ЯіІїЇґҐ']+" placeholder="Enter your full name" title="Olena Chyzhak"
+                        required>
+                </div>
 
-                <input class="form-input" name="user-name" type="text" id="user-name" pattern="[a-zA-Zа-яА-ЯіІїЇґҐ']+"
-                    placeholder="Enter your full name" title="Olena Chyzhak" required>
             </div>
             <div class="form-wrapper">
+                <div class="form-input-box">
+                    <input class="form-input" name="user-email" type="email" id="user-email"
+                        placeholder="Enter your email" required>
+                </div>
 
-                <input class="form-input" name="user-email" type="email" id="user-email" placeholder="Enter your email"
-                    required>
             </div>
             <div class="form-wrapper">
+                <div class="form-input-box">
+                    <textarea class="form-input-comment" name="user-comment" id="user-comment"
+                        placeholder="Comments"></textarea>
+                </div>
 
-                <textarea class="form-input-comment" name="user-comment" id="user-comment"
-                    placeholder="Comments"></textarea>
+            </div>
+            <div class="order-btn-box">
+                <button class="order-btn" type="submit">Send
+                    <svg class="order-btn-icon" width="26px" height="10px" aria-label="send-icon">
+                        <use href="./img/svg/icons.svg#icon-arrow"></use>
+                    </svg>
+                </button>
             </div>
 
-            <button class="order-btn" type="submit">Send
-                <svg class="order-btn-icon" width="26px" height="10px" aria-label="send-icon">
-                    <use href="./icons.svg#icon-arrow"></use>
-                </svg>
-            </button>
         </form>
     </div>
 </section>
