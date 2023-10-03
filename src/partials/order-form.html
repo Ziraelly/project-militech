@@ -1,0 +1,52 @@
+<section class="your-order">
+    <div class="bg-img container"></div>
+    <div class="order container">
+        <div class="img-container">
+            <img class="img-form" srcset="
+            ./img/order-form/embr.jpg 524w, 
+            ./img/order-form/embr@2x.jpg 1048w, 
+            ./img/order-form/embr-t.jpg 638w, 
+            ./img/order-form/embr-t@2x.jpg 1276w" sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+                src="./img/order-form/embr.jpg" alt="Vyshyvanka">
+        </div>
+        <div class="order-title-form-wrapper">
+            <h2 class="order-title"><span class="order-title-y">Your order</span> is our priority: Personalized
+                approach
+                and quality of service</h2>
+            <form class="order-box">
+
+                <div class="form-input-box">
+                    <label class="form-input-label">
+                        <input class="form-input" name="user-name" type="text" id="user-name"
+                            pattern="[a-zA-Zа-яА-ЯіІїЇґҐ']+" placeholder="Enter your full name" title="Olena Chyzhak"
+                            required>
+                    </label>
+                </div>
+
+                <div class="form-input-box">
+                    <label class="form-input-label">
+                        <input class="form-input" name="user-email" type="email" id="user-email"
+                            placeholder="Enter your email" required>
+                    </label>
+                </div>
+
+                <div class="form-textarea-box">
+                    <label>
+                        <textarea class="form-input-comment" name="user-comment" id="user-comment"
+                            placeholder="Comments"></textarea>
+                    </label>
+                </div>
+
+                <div class="order-btn-box">
+                    <button class="order-btn" type="submit">Send
+                        <svg class="order-btn-icon" width="26px" height="10px" aria-label="send-icon">
+                            <use href="./img/svg/icons.svg#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</section>
