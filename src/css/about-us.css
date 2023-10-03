@@ -25,7 +25,6 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 50px;
-  /* margin-bottom: 80px; */
 }
 
 .box-text-list-about-us {
@@ -77,7 +76,7 @@
     max-width: 768px;
     max-height: 1007px;
     margin-bottom: 50px;
-    background-position-y: 409px;
+    background-position-y: 473px;
     background-position-x: 399px;
   }
   .list-about-us {
@@ -109,8 +108,8 @@
     height: 695px;
     display: flex;
     margin-bottom: 50px;
-    background-position-y: 409px;
-    background-position-x: 399px;
+    background-position-y: 141px;
+    background-position-x: 895px;
   }
 
   .list-about-us {
@@ -123,18 +122,14 @@
     max-height: 545px;
   }
   .box-text-list-about-us {
-    width: 481px;
-    height: 389px;
+    width: 436px;
+    height: 454px;
     margin-top: auto;
     margin-bottom: auto;
   }
   .box-image-about-us {
     display: flex;
   }
-
-  /* .box-text-list-about-us {
-    max-width: 389px;
-  } */
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
