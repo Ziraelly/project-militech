@@ -1,8 +1,6 @@
-@media screen and (max-width: 767px) {
-  .overlay {
-    display: none;
-  }
+/* FOR MOBILE */
 
+@media screen and (max-width: 767px) {
   .our-collection-container {
     background: #1c2225;
     padding: 18px 20px;
@@ -52,6 +50,12 @@
     align-items: flex-start;
   }
 
+  .img-border {
+    border-radius: 4px;
+    background: url(../img/collection/poltava-m.jpg),
+      lightgray 50% / cover no-repeat;
+  }
+
   .our-collection-describtion {
     padding-top: 18px;
     gap: 8px;
@@ -66,8 +70,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 14px; /* 100% */
-    letter-spacing: 0.7px;
+    line-height: 1;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-bottom: 8px;
   }
@@ -89,8 +93,22 @@
 /* FOR TABLET */
 
 @media screen and (min-width: 768px) {
-  .overlay {
-    display: none;
+  .our-collection-title {
+    display: flex;
+    justify-content: center;
+
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03;
+
+    align-self: stretch;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 18px;
   }
 
   .our-collection-list {
@@ -101,12 +119,9 @@
 
     max-width: 768px;
     max-height: 1770px;
-    border-radius: 4px;
   }
 
   .our-collection-li {
-    /* width: 342px;
-    height: 430px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,22 +140,33 @@
     align-items: flex-start;
   }
 
+  .img-border {
+    border-radius: 4px;
+    background: url(../img/collection/poltava-m.jpg),
+      lightgray 50% / cover no-repeat;
+  }
+
   .our-collection-describtion {
     padding-top: 18px;
     gap: 8px;
   }
 
   .our-collection-describtion-title {
-    width: 335px;
+    width: 342px;
     overflow: hidden;
     text-overflow: ellipsis;
     color: #fcf9f9;
     font-family: Manrope;
-    font-size: 14px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 14px; /* 100% */
-    letter-spacing: 0.7px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
     text-transform: uppercase;
     margin-bottom: 8px;
   }
@@ -148,11 +174,108 @@
   .our-collection-describtion-text {
     color: rgba(252, 249, 249, 0.4);
     font-family: Manrope;
-    font-size: 14px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 1;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.05em;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+/* FOR DESKTOP */
+
+@media screen and (min-width: 1280px) {
+  .our-collection-title {
+    display: flex;
+    justify-content: center;
+
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03;
+
+    align-self: stretch;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+  }
+
+  .our-collection-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1280px;
+  }
+
+  .our-collection-li {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+
+    align-items: center;
+    gap: 8px;
+    width: calc((100% - 48px) / 3);
+  }
+
+  .our-collection-li:last-child {
+    margin-bottom: 0;
+  }
+
+  .our-collection-img-box {
+    display: flex;
+    width: 342px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .img-border {
+    border-radius: 4px;
+    background: url(../img/collection/poltava-m.jpg),
+      lightgray 50% / cover no-repeat;
+  }
+
+  .our-collection-describtion {
+    padding-top: 18px;
+    gap: 8px;
+  }
+
+  .our-collection-describtion-title {
+    width: 342px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .our-collection-describtion-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
