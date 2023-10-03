@@ -1,15 +1,17 @@
 /* ======= about-us ========= */
+
 /* ======= mobile =========== */
 .section-about-us {
   background-image: url(../img/bg-ornament/m-ornament-a.png);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom;
+  background-position-x: 125px;
   max-width: 375px;
   min-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 18.45px;
-  max-height: 1019px;
+  margin-bottom: 18px;
+  height: 1019px;
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
@@ -23,8 +25,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 50px;
-  z-index: 299;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 .box-text-list-about-us {
@@ -63,8 +64,83 @@
   border-radius: 4px;
   background-color: transparent;
 }
-/* .image-about-us {
-  width: 100%;
-  height: 100%;
-} */
+.image-about-us {
+  border-radius: 4px;
+}
+
 /* ======= mobile =========== */
+
+/* ======= tablet =========== */
+@media screen and (min-width: 768px) {
+  .section-about-us {
+    background-image: url(../img/bg-ornament/t-ornament-a.png);
+    max-width: 768px;
+    max-height: 1007px;
+    margin-bottom: 50px;
+    background-position-y: 409px;
+    background-position-x: 399px;
+  }
+  .list-about-us {
+    gap: 40px;
+    max-width: 704px;
+    max-height: 907px;
+  }
+  .box-image-about-us {
+    width: 704px;
+    height: 545px;
+  }
+  .text-item-about-us {
+    font-size: 16px;
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px) {
+  .hero-section {
+    background-image: url(../img/bg-ornament/t-ornament-a@2x.png);
+  }
+}
+/* ======= tablet =========== */
+/* ======= desktop =========== */
+@media screen and (min-width: 1280px) {
+  .section-about-us {
+    background-image: url(../img/bg-ornament/ornament-a.png);
+    max-width: 1280px;
+    height: 695px;
+    display: flex;
+    margin-bottom: 50px;
+    background-position-y: 409px;
+    background-position-x: 399px;
+  }
+
+  .list-about-us {
+    flex-direction: row;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 545px;
+  }
+  .box-text-list-about-us {
+    width: 481px;
+    height: 389px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .box-image-about-us {
+    display: flex;
+  }
+
+  /* .box-text-list-about-us {
+    max-width: 389px;
+  } */
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .hero-section {
+    background-image: url(../img/bg-ornament/ornament-a@2x.png);
+  }
+}
+/* ======= desktop =========== */
