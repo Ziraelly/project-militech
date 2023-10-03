@@ -81,6 +81,7 @@
 
   .hero-model-img {
     width: 413px;
+    border-radius: 4px;
   }
 
   .hero-title {
