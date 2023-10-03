@@ -1,4 +1,5 @@
 /* ======= about-us ========= */
+/* ======= mobile =========== */
 .section-about-us {
   background-image: url(../img/bg-ornament/m-ornament-a.png);
   background-repeat: no-repeat;
@@ -7,27 +8,16 @@
   min-width: 375px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 18.45px;
+  max-height: 1019px;
 }
-.box-about-us {
-  position: relative;
-  max-width: 375px;
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .hero-section {
+    background-image: url(../img/bg-ornament/m-ornament-a@2x.png);
+  }
 }
-/* background-color: transparent;
-  position: absolute;
-  padding: 0px 0.615px 0.455px 0px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  background-image: url(../img/bg-ornament/m-ornament-a.png);
-  background-repeat: no-repeat;
-  background-size: 459px 408px;
-  width: 459px;
-  height: 408px;
-  background-size: 100%;
-  background-size: contain;
-  bottom: 0px;
-} */
-
 .list-about-us {
   display: inline-flex;
   flex-direction: column;
@@ -73,3 +63,8 @@
   border-radius: 4px;
   background-color: transparent;
 }
+/* .image-about-us {
+  width: 100%;
+  height: 100%;
+} */
+/* ======= mobile =========== */
