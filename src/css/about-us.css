@@ -1,0 +1,111 @@
+/* ======= mobile =========== */
+.section-about-us {
+  background-image: url(../img/bg-ornament/m-ornament-a.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 408px;
+}
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .section-about-us {
+    background-image: url(../img/bg-ornament/m-ornament-a@2x.png);
+  }
+}
+
+.box-about-us {
+  padding-bottom: 62px;
+}
+
+.title-about-us {
+  color: var(--secondary-color);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.text-about-us {
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+}
+
+.text-about-us:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.about-us-text-wrapper {
+  margin-bottom: 50px;
+}
+
+.image-about-us {
+  border-radius: 4px;
+}
+
+/* ======= tablet =========== */
+@media screen and (min-width: 768px) {
+  .section-about-us {
+    background-image: url(../img/bg-ornament/t-ornament-a.png);
+    background-size: auto 484px;
+  }
+  .box-about-us {
+    padding-bottom: 50px;
+  }
+
+  .title-about-us {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+
+  .text-about-us {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+  }
+
+  .about-us-text-wrapper {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px) {
+  .section-about-us {
+    background-image: url(../img/bg-ornament/t-ornament-a@2x.png);
+  }
+}
+
+/* ======= desktop =========== */
+@media screen and (min-width: 1280px) {
+  .section-about-us {
+    background-image: url(../img/bg-ornament/ornament-a.png);
+  }
+
+  .box-about-us {
+    display: flex;
+    padding-bottom: 80px;
+    gap: 50px;
+  }
+
+  .about-us-text-wrapper {
+    align-self: center;
+    margin-bottom: 0;
+    max-width: 436px;
+  }
+
+  .about-us-text-wrapper {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .section-about-us {
+    background-image: url(../img/bg-ornament/ornament-a@2x.png);
+  }
+}
+/* ======= desktop =========== */
