@@ -1,0 +1,307 @@
+/* FOR MOBILE */
+
+@media screen and (max-width: 767px) {
+  .section-our-collection {
+    background-image: url(../img/bg-ornament/m-ornament-c.png);
+    background-position: 0 285px;
+    background-size: auto 177px;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .section-our-collection {
+      background-image: url(../img/bg-ornament/m-ornament-c@2x.png);
+    }
+  }
+  .our-collection-container {
+    padding-top: 18px;
+    padding-bottom: 80px;
+  }
+
+  .our-collection-title {
+    color: #fcf9f9;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .our-collection-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    border-radius: 4px;
+  }
+
+  .our-collection-li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .our-collection-li:last-child {
+    margin-bottom: 0;
+  }
+
+  .our-collection-img-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-border {
+    border-radius: 4px;
+  }
+
+  .our-collection-describtion {
+    padding-top: 18px;
+    gap: 8px;
+  }
+
+  .our-collection-describtion-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fcf9f9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .our-collection-describtion-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+/* FOR TABLET */
+
+@media screen and (min-width: 768px) {
+  .section-our-collection {
+    background-image: url(../img/bg-ornament/t-ornament-c.png);
+    background-position: 0 271px;
+    background-size: auto 300px;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .section-our-collection {
+      background-image: url(../img/bg-ornament/t-ornament-c@2x.png);
+    }
+  }
+
+  .our-collection-container {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .our-collection-title {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+  }
+
+  .our-collection-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .our-collection-li {
+    width: calc(100% - 20) / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 8px; */
+  }
+
+  .our-collection-li:last-child {
+    margin-bottom: 0;
+  }
+
+  .our-collection-img-box {
+    display: flex;
+    width: 342px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .img-border {
+    border-radius: 4px;
+  }
+
+  .our-collection-describtion {
+    padding-top: 18px;
+    gap: 8px;
+  }
+
+  .our-collection-describtion-title {
+    width: 342px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .our-collection-describtion-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+/* FOR DESKTOP */
+
+@media screen and (min-width: 1280px) {
+  .section-our-collection {
+    background-image: url(../img/collection/ornament-col@2x.png);
+    background-position: 0 290px;
+    background-size: auto 300px;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .section-our-collection {
+      background-image: url(../img/bg-ornament/ornament-c@2x.png);
+    }
+  }
+
+  .our-collection-container {
+    padding-top: 70px;
+    padding-bottom: 150px;
+  }
+
+  .our-collection-title {
+    text-align: center;
+
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03;
+
+    align-self: stretch;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+  }
+
+  .our-collection-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 40px;
+    column-gap: 20px;
+  }
+
+  .our-collection-li {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 8px;
+    width: calc((100% - 40px) / 3);
+  }
+
+  .our-collection-li:last-child {
+    margin-bottom: 0;
+  }
+
+  .our-collection-img-box {
+    display: flex;
+    width: 342px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .img-border {
+    border-radius: 4px;
+  }
+
+  .our-collection-describtion {
+    padding-top: 18px;
+    gap: 8px;
+  }
+
+  .our-collection-describtion-title {
+    width: 342px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .our-collection-describtion-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
