@@ -2,9 +2,9 @@
 
 @media screen and (max-width: 767px) {
   .section-our-collection {
-    background-image: url(../img/collection/ornament-col.png);
-    background-position: -50px 285px;
-    background-size: 177px 199px;
+    background-image: url(../img/bg-ornament/m-ornament-c.png);
+    background-position: 0 316px;
+    background-size: auto, 177px;
     background-repeat: no-repeat;
   }
 
@@ -13,20 +13,14 @@
   }
 
   .our-collection-title {
-    display: flex;
-    justify-content: center;
     color: #fcf9f9;
-    font-family: Manrope;
     font-size: 32px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.37;
-    letter-spacing: -0.03;
-
-    align-self: stretch;
+    letter-spacing: -0.03em;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 18px;
+    margin-bottom: 40px;
   }
 
   .our-collection-list {
@@ -58,8 +52,6 @@
 
   .img-border {
     border-radius: 4px;
-    background: url(../img/collection/poltava-m.jpg),
-      lightgray 50% / cover no-repeat;
   }
 
   .our-collection-describtion {
@@ -72,9 +64,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     color: #fcf9f9;
-    font-family: Manrope;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1;
     letter-spacing: 0.05em;
@@ -84,9 +74,7 @@
 
   .our-collection-describtion-text {
     color: rgba(252, 249, 249, 0.4);
-    font-family: Manrope;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1;
     letter-spacing: 0.02em;
@@ -96,13 +84,24 @@
   }
 }
 
+@media screen and (min-resolution: 129dpi) and (max-width: 768px),
+  screen and (min-resolution: 2dppi) and (max-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
+  .section-our-collection {
+    background-image: url('../img/bg-ornament/m-ornament-c.@2x.png');
+    background-size: auto, 177px;
+    background-position: 0 271px;
+    background-repeat: no-repeat;
+  }
+}
+
 /* FOR TABLET */
 
 @media screen and (min-width: 768px) {
   .section-our-collection {
-    background-image: url(../img/collection/ornament-col@2x.png);
-    background-position: -60px 205px;
-    background-size: 180px 338px;
+    background-image: url(../img/bg-ornament/t-ornament-c.png);
+    background-position: 0 260px;
+    background-size: auto, 338px;
     background-repeat: no-repeat;
   }
 
@@ -111,21 +110,14 @@
   }
 
   .our-collection-title {
-    display: flex;
-    justify-content: center;
-
     color: #fcf9f9;
-    font-family: Manrope;
     font-size: 44px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.45;
-    letter-spacing: -0.03;
-
-    align-self: stretch;
+    letter-spacing: -0.03em;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 18px;
+    margin-bottom: 40px;
   }
 
   .our-collection-list {
@@ -133,7 +125,6 @@
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 20px;
-
     max-width: 768px;
     max-height: 1770px;
   }
@@ -160,8 +151,6 @@
 
   .img-border {
     border-radius: 4px;
-    background: url(../img/collection/poltava-m.jpg),
-      lightgray 50% / cover no-repeat;
   }
 
   .our-collection-describtion {
@@ -174,9 +163,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     color: #fcf9f9;
-    font-family: Manrope;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1;
     letter-spacing: 0.05em;
@@ -191,9 +178,7 @@
 
   .our-collection-describtion-text {
     color: rgba(252, 249, 249, 0.4);
-    font-family: Manrope;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1;
     letter-spacing: 0.05em;
@@ -204,12 +189,22 @@
   }
 }
 
+@media screen and (min-resolution: 129dpi) and (max-width: 768px),
+  screen and (min-resolution: 2dppi) and (max-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
+  .section-our-collection {
+    background-image: url('../img/bg-ornament/t-ornament-c@2x.png');
+    background-size: auto, 177px;
+    background-position: 0 271px;
+  }
+}
+
 /* FOR DESKTOP */
 
 @media screen and (min-width: 1280px) {
   .section-our-collection {
-    background-image: url(../img/collection/ornament-col@2x.png);
-    background-position: 0 220px;
+    background-image: url(../img/bg-ornament/ornament-c.png);
+    background-position: 0 240px;
     background-size: 180px 338px;
     background-repeat: no-repeat;
   }
@@ -219,21 +214,13 @@
   }
 
   .our-collection-title {
-    display: flex;
-    justify-content: center;
-
     color: #fcf9f9;
-    font-family: Manrope;
     font-size: 44px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.45;
-    letter-spacing: -0.03;
-
-    align-self: stretch;
+    letter-spacing: -0.03em;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 18px;
   }
 
   .our-collection-list {
@@ -252,7 +239,7 @@
 
     align-items: center;
     gap: 8px;
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 40px) / 3);
   }
 
   .our-collection-li:last-child {
@@ -268,8 +255,6 @@
 
   .img-border {
     border-radius: 4px;
-    background: url(../img/collection/poltava-m.jpg),
-      lightgray 50% / cover no-repeat;
   }
 
   .our-collection-describtion {
@@ -282,9 +267,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     color: #fcf9f9;
-    font-family: Manrope;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1;
     letter-spacing: 0.05em;
@@ -299,14 +282,21 @@
 
   .our-collection-describtion-text {
     color: rgba(252, 249, 249, 0.4);
-    font-family: Manrope;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1;
     letter-spacing: 0.05em;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+  }
+}
+
+@media screen and (min-resolution: 129dpi) and (max-width: 768px),
+  screen and (min-resolution: 2dppi) and (max-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
+  .section-our-collection {
+    background-image: url('../img/bg-ornament/ornament-c@2x.png');
+    background-size: cover;
   }
 }
