@@ -2,44 +2,44 @@
 
 @media screen and (max-width: 767px) {
   .section-our-collection {
-    background-image: url(../img/collection/ornament-col.png);
-    background-position: -50px 285px;
-    background-size: 177px 199px;
+    background-image: url(../img/bg-ornament/m-ornament-c.png);
+    background-position: 0 285px;
+    background-size: auto 177px;
     background-repeat: no-repeat;
   }
-
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .section-our-collection {
+      background-image: url(../img/bg-ornament/m-ornament-c@2x.png);
+    }
+  }
   .our-collection-container {
-    padding: 18px 20px;
+    padding-top: 18px;
+    padding-bottom: 80px;
   }
 
   .our-collection-title {
-    display: flex;
-    justify-content: center;
     color: #fcf9f9;
-    font-family: Manrope;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.37;
     letter-spacing: -0.03;
-
-    align-self: stretch;
-    text-align: center;
     text-transform: capitalize;
-    margin-bottom: 18px;
+    margin-bottom: 40px;
+    text-align: center;
   }
 
   .our-collection-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 20px;
-    max-height: 3062px;
     border-radius: 4px;
   }
 
   .our-collection-li {
     display: flex;
-    width: 335px;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
@@ -51,15 +51,11 @@
 
   .our-collection-img-box {
     display: flex;
-    max-width: 335px;
     flex-direction: column;
-    align-items: flex-start;
   }
 
   .img-border {
     border-radius: 4px;
-    background: url(../img/collection/poltava-m.jpg),
-      lightgray 50% / cover no-repeat;
   }
 
   .our-collection-describtion {
@@ -68,11 +64,9 @@
   }
 
   .our-collection-describtion-title {
-    width: 335px;
     overflow: hidden;
     text-overflow: ellipsis;
     color: #fcf9f9;
-    font-family: Manrope;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -84,7 +78,6 @@
 
   .our-collection-describtion-text {
     color: rgba(252, 249, 249, 0.4);
-    font-family: Manrope;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -100,32 +93,37 @@
 
 @media screen and (min-width: 768px) {
   .section-our-collection {
-    background-image: url(../img/collection/ornament-col@2x.png);
-    background-position: -60px 205px;
-    background-size: 180px 338px;
+    background-image: url(../img/bg-ornament/t-ornament-c.png);
+    background-position: 0 271px;
+    background-size: auto 300px;
     background-repeat: no-repeat;
   }
 
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .section-our-collection {
+      background-image: url(../img/bg-ornament/t-ornament-c@2x.png);
+    }
+  }
+
   .our-collection-container {
-    padding: 50px 32px;
+    padding-top: 50px;
+    padding-bottom: 100px;
   }
 
   .our-collection-title {
-    display: flex;
-    justify-content: center;
-
     color: #fcf9f9;
     font-family: Manrope;
     font-size: 44px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.45;
-    letter-spacing: -0.03;
+    letter-spacing: -0.03em;
 
-    align-self: stretch;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 18px;
+    margin-bottom: 40px;
   }
 
   .our-collection-list {
@@ -133,18 +131,14 @@
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 20px;
-
-    max-width: 768px;
-    max-height: 1770px;
   }
 
   .our-collection-li {
-    width: 342px;
+    width: calc(100% - 20) / 2;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* gap: 8px; */
-    width: calc((100% - 20px) / 2);
   }
 
   .our-collection-li:last-child {
@@ -160,8 +154,6 @@
 
   .img-border {
     border-radius: 4px;
-    background: url(../img/collection/poltava-m.jpg),
-      lightgray 50% / cover no-repeat;
   }
 
   .our-collection-describtion {
@@ -209,18 +201,26 @@
 @media screen and (min-width: 1280px) {
   .section-our-collection {
     background-image: url(../img/collection/ornament-col@2x.png);
-    background-position: 0 220px;
-    background-size: 180px 338px;
+    background-position: 0 290px;
+    background-size: auto 300px;
     background-repeat: no-repeat;
   }
 
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .section-our-collection {
+      background-image: url(../img/bg-ornament/ornament-c@2x.png);
+    }
+  }
+
   .our-collection-container {
-    padding: 70px 100px 150px 100px;
+    padding-top: 70px;
+    padding-bottom: 150px;
   }
 
   .our-collection-title {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 
     color: #fcf9f9;
     font-family: Manrope;
@@ -231,28 +231,25 @@
     letter-spacing: -0.03;
 
     align-self: stretch;
-    text-align: center;
     text-transform: capitalize;
-    margin-bottom: 18px;
+    margin-bottom: 40px;
   }
 
   .our-collection-list {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    max-width: 1280px;
+    row-gap: 40px;
+    column-gap: 20px;
   }
 
   .our-collection-li {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 20px;
-    row-gap: 40px;
 
     align-items: center;
     gap: 8px;
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 40px) / 3);
   }
 
   .our-collection-li:last-child {
@@ -268,8 +265,6 @@
 
   .img-border {
     border-radius: 4px;
-    background: url(../img/collection/poltava-m.jpg),
-      lightgray 50% / cover no-repeat;
   }
 
   .our-collection-describtion {
