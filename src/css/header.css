@@ -2,10 +2,10 @@
 npm run dev
  */
 header {
-  position: fixed;
+  /* position: fixed; */
   background-color: var(--background-color);
   width: 100%;
-  z-index: 999999;
+  /* z-index: 999999; */
   padding-top: 20px;
 }
 .header-container {
@@ -302,9 +302,12 @@ header {
 /*==============================min-width: 1280px=============================*/
 @media screen and (min-width: 1280px) {
   .header-container {
-    max-width: 1280px;
+    max-width: 1082px;
+    padding-left: 0;
+    padding-right: 0;
+    /* max-width: 1280px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 100px; */
   }
 
   .header-menu-burger {

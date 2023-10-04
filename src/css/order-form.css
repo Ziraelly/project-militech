@@ -7,6 +7,8 @@
 .bg-img {
   max-width: 375px;
   height: 550px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url('../img/order-form/model-m.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -26,6 +28,11 @@
   flex-direction: column;
   padding-top: 80px;
   padding-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .order-title {
@@ -166,6 +173,9 @@
     gap: 100px;
     padding-top: 100px;
     padding-bottom: 0;
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 768px),
@@ -233,9 +243,11 @@
   }
 
   .order {
+    max-width: 1280px;
+    padding-left: 64px;
+    padding-right: 0;
     flex-direction: row;
     gap: 50px;
-    padding-left: 64px;
     padding-top: 150px;
   }
 }

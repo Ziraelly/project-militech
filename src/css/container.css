@@ -21,8 +21,11 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    width: 1082px;
+    padding-left: 0;
+    padding-right: 0;
+    /* width: 1280px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 100px; */
   }
 }
