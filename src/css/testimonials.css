@@ -83,7 +83,7 @@
   }
 
   .testimonials-list-response {
-    width: calc(100% - 32px) / 2;
+    width: calc((100% - 32px) / 2);
   }
 
   .testimonials-response {
@@ -104,7 +104,7 @@
   }
 
   .testimonials-list-response {
-    width: calc(100% - 52px) / 3;
+    width: calc((100% - 52px) / 3);
   }
 }
 
