@@ -4,10 +4,10 @@
   .section-our-collection {
     background-image: url(../img/bg-ornament/m-ornament-c.png);
     background-position: left;
-    background-position-y: 254px;
+    background-position-y: 316px;
     background-size: auto 177px;
     background-repeat: no-repeat;
-    width: 375px;
+    max-width: 375px;
     margin-left: auto;
     margin-right: auto;
   }
