@@ -1,17 +1,20 @@
 /* FOR MOBILE */
 
 @media screen and (max-width: 767px) {
-  .our-collection-container {
+  .section-our-collection {
     background-image: url(../img/bg-ornament/m-ornament-c.png);
     background-position: left;
     background-position-y: 335px;
     background-size: auto 177px;
     background-repeat: no-repeat;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
   }
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
-    .our-collection-container {
+    .section-our-collection {
       background-image: url(../img/bg-ornament/m-ornament-c@2x.png);
     }
   }
@@ -95,19 +98,22 @@
 /* FOR TABLET */
 
 @media screen and (min-width: 768px) {
-  .our-collection-container {
+  .section-our-collection {
     background-image: none;
     background-image: url(../img/bg-ornament/t-ornament-c.png);
     background-position: left;
     background-position-y: 271px;
     background-size: auto 300px;
     background-repeat: no-repeat;
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
-    .our-collection-container {
+    .section-our-collection {
       background-image: none;
       background-image: url(../img/bg-ornament/t-ornament-c@2x.png);
     }
@@ -211,6 +217,9 @@
     background-position: 0 291px;
     background-size: auto 300px;
     background-repeat: no-repeat;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media screen and (min-resolution: 192dpi),
